@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img" aria-label="Bar chart showing unique clients served by homelessness program type in FY 2025-26">
+  <rect width="800" height="450" fill="#f8f9fa" rx="8" />
+  <text x="400" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#8c1d40">Unique Clients Served by Program Type (FY 2025–26)</text>
+  <text x="400" y="65" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#5c6670">Source: City of Phoenix Open Data - Office of Homeless Solutions</text>
+  
+  <!-- Y-Axis Gridlines -->
+  <line x1="180" y1="350" x2="740" y2="350" stroke="#d0d0d0" stroke-width="1" />
+  <line x1="180" y1="280" x2="740" y2="280" stroke="#e0e0e0" stroke-width="1" stroke-dasharray="4" />
+  <line x1="180" y1="210" x2="740" y2="210" stroke="#e0e0e0" stroke-width="1" stroke-dasharray="4" />
+  <line x1="180" y1="140" x2="740" y2="140" stroke="#e0e0e0" stroke-width="1" stroke-dasharray="4" />
+  
+  <!-- Y-Axis Labels -->
+  <text x="165" y="355" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#404040">0</text>
+  <text x="165" y="285" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#404040">2,500</text>
+  <text x="165" y="215" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#404040">5,000</text>
+  <text x="165" y="145" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#404040">10,000</text>
+  
+  <!-- Bar 1: General Emergency Shelter (9,623) -->
+  <rect x="200" y="145" width="85" height="205" fill="#8c1d40" rx="4" />
+  <text x="242" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#8c1d40">9,623</text>
+  <text x="242" y="372" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#404040">General Shelter</text>
+  
+  <!-- Bar 2: Street Outreach (9,251) -->
+  <rect x="310" y="153" width="85" height="197" fill="#8c1d40" rx="4" />
+  <text x="352" y="143" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#8c1d40">9,251</text>
+  <text x="352" y="372" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#404040">Street Outreach</text>
+  
+  <!-- Bar 3: Family Shelter (2,049) -->
+  <rect x="420" y="293" width="85" height="57" fill="#ffc627" stroke="#8c1d40" stroke-width="1.5" rx="4" />
+  <text x="462" y="283" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#404040">2,049</text>
+  <text x="462" y="372" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#404040">Family Shelter</text>
+  
+  <!-- Bar 4: Safe Outdoor Space (1,238) -->
+  <rect x="530" y="315" width="85" height="35" fill="#ffc627" stroke="#8c1d40" stroke-width="1.5" rx="4" />
+  <text x="572" y="305" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#404040">1,238</text>
+  <text x="572" y="372" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#404040">Safe Outdoor</text>
+  
+  <!-- Bar 5: Rapid Re-housing (80) -->
+  <rect x="640" y="347" width="85" height="3" fill="#747474" rx="1" />
+  <text x="682" y="337" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#404040">80</text>
+  <text x="682" y="372" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#404040">Rapid Re-housing</text>
+  
+  <!-- Bottom note -->
+  <text x="400" y="420" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#5c6670">Total System Clients Served: 22,241 individuals across all program categories</text>
+</svg>

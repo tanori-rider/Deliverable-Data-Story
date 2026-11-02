@@ -1,0 +1,362 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Data Story · City of Phoenix Homelessness Response</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="story-header">
+      <p class="eyebrow">Data Story - City of Phoenix Homelessness Response</p>
+      <h1>
+        Evaluating Homeless Response Programs in Phoenix: Client Outcomes by
+        Service Model
+      </h1>
+      <p class="lede">
+        How effectively do government-funded homelessness response programs
+        transition clients into permanent housing? This data story examines
+        homelessness intervention programs in Phoenix, Arizona, evaluating their
+        service reach and housing outcomes using official open data provided by
+        the Office of Homeless Solutions (OHS)—a City of Phoenix agency
+        committed to preventing and reducing homelessness. Through a
+        comprehensive strategy expanding emergency shelter, safe outdoor spaces,
+        street outreach, and rapid re-housing, OHS serves thousands of
+        individuals annually. However, data across recent fiscal years reveals
+        that while general adult shelters handle the largest raw volume of
+        clients, specialized models—such as family emergency shelters and rapid
+        re-housing—achieve significantly higher rates of permanent housing
+        exits.
+      </p>
+    </header>
+    <main>
+      <section id="story-frame">
+        <h2>D1 · Story Frame</h2>
+        <p>
+          The City of Phoenix Office of Homeless Solutions (OHS) manages
+          regional intervention strategies designed to prevent and end
+          homelessness. Their comprehensive response framework encompasses
+          emergency shelter operations, safe outdoor spaces, street outreach,
+          heat-relief centers, and long-term supportive housing. Evaluating
+          these initiatives requires analyzing client transition rates across
+          distinct service models to identify which intervention types yield
+          sustainable, long-term housing stability.
+        </p>
+        <p>
+          <strong>Core Claim:</strong>
+          While general emergency adult shelter serves the highest number of
+          clients, the data suggests that specialized models of service, such as
+          family emergency shelters and rapid re-housing, yield higher rates of
+          successful outcomes for clients.
+        </p>
+        <p>
+          All metrics are derived from the official City of Phoenix's Open Data
+          Portal dataset titled "Homeless Solutions Client Outcomes by Program
+          Type" (last updated: October 2026). Positive exit rates represent the
+          percentage of total program exits resulting in permanent housing
+          outcomes. (<code>EXIT_POSITIVE / EXIT_TOTAL</code>)
+        </p>
+        <p>
+          <strong>
+            The selected dataset spans fiscal years 2023-24 through 2026-27 Q1
+            across five core program types:
+          </strong>
+        </p>
+        <ul class="program-list">
+          <li>Emergency Shelter (Adult)</li>
+          <li>Emergency Shelter (Family)</li>
+          <li>Safe Outdoor Space</li>
+          <li>Rapid Re-Housing</li>
+          <li>Street Outreach</li>
+        </ul>
+      </section>
+      <section id="figures">
+        <h2>D2 · Editorial Figures</h2>
+        <div class="story-grid">
+          <figure>
+            <img src="ohs_program_volume.svg" alt="Bar chart showing unique clients served by homelessness program type in FY 2025-26." width="800" height="450">
+            <figcaption>
+              Compares the unique clients served in FY 2025-26 across the five
+              programs of the City of Phoenix's Office of Homeless Solutions
+              (OHS).
+            </figcaption>
+          </figure>
+          <figure>
+            <img src="ohs_housing_outcomes.svg" alt="Horizontal bar chart comparing positive exit rates to permanent housing across homelessness programs" width="800" height="450">
+            <figcaption>
+              Compares positive housing exit percentages across the five
+              programs of the City of Phoenix's Office of Homeless Solutions
+              (OHS) for FY 2025-26.
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+      <section id="data-table">
+        <h2>D3 · Accessible Data Table</h2>
+        <div class="table-region" role="region" aria-label="Positive Housing Exit Rates by Program Type (FY 2025-26)" tabindex="0">
+          <table>
+            <caption>
+              Positive Housing Exit Rates by Program Type (FY 2025-26)
+            </caption>
+            <thead>
+              <tr>
+                <th scope="col">Program Type</th>
+                <th scope="col">Unique Clients</th>
+                <th scope="col">Avg. Length of Stay</th>
+                <th scope="col">Positive Exits</th>
+                <th scope="col">Positive Exit Rate</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Emergency Shelter (Adult)</th>
+                <td class="value">9,623</td>
+                <td class="value">100 days</td>
+                <td class="value">985</td>
+                <td class="value">12.6%</td>
+              </tr>
+              <tr>
+                <th scope="row">Emergency Shelter (Family)</th>
+                <td class="value">2,049</td>
+                <td class="value">68 days</td>
+                <td class="value">1,223</td>
+                <td class="value">79.1%</td>
+              </tr>
+              <tr>
+                <th scope="row">Safe Outdoor Space</th>
+                <td class="value">1,238</td>
+                <td class="value">90 days</td>
+                <td class="value">330</td>
+                <td class="value">33.5%</td>
+              </tr>
+              <tr>
+                <th scope="row">Rapid Re-Housing</th>
+                <td class="value">80</td>
+                <td class="value">187 days</td>
+                <td class="value">30</td>
+                <td class="value">83.3%</td>
+              </tr>
+              <tr>
+                <th scope="row">Street Outreach</th>
+                <td class="value">9,251</td>
+                <td class="value">N/A</td>
+                <td class="value">3,461</td>
+                <td class="value">40.9%</td>
+              </tr>
+              <tr class="total-row">
+                <th scope="row">System Total</th>
+                <td class="value">22,241</td>
+                <td class="value">86 days</td>
+                <td class="value">6,029</td>
+                <td class="value">32.0%</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="source-note">
+          <strong>Data Source:</strong> City of Phoenix Open Data Portal, (FY
+          2025-26). Positive Exit Rate = <code>EXIT_POSITIVE</code> /
+          <code>EXIT_TOTAL * 100</code>. *Street Outreach programs do not track
+          fixed residential length of stay.
+        </p>
+      </section>
+      <section id="vector-story">
+        <h2>D4 · Responsive SVG</h2>
+        <div class="svg-container">
+          <svg class="story-graphic" viewBox="0 0 800 400" role="img" aria-labelledby="graphic-title graphic-desc">
+            <desc id="graphic-desc">
+              Bar chart comparing unique clients served and positive exit rates
+              across three fiscal years (2023-24, 2024-25, 2025-26) in Phoenix.
+            </desc>
+            <rect class="graphic-surface" width="800" height="400" rx="8"></rect>
+            <!-- Chart Title -->
+            <title id="graphic-title">
+              Multi-Year System Growth (FY 2023-26): Clients Served and Positive
+              Exits
+            </title>
+            <text x="400" y="38" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#8c1d40">
+              Multi-Year System Growth (FY 2023-26): Clients Served and Positive
+              Exits
+            </text>
+
+            <!-- Grid Lines -->
+            <path class="graphic-line" d="M120 320 H720"></path>
+            <path class="graphic-line" d="M120 240 H720" stroke-dasharray="4" opacity="1"></path>
+            <path class="graphic-line" d="M120 160 H720" stroke-dasharray="4" opacity="1"></path>
+            <path class="graphic-line" d="M120 80 H720" stroke-dasharray="4" opacity="1"></path>
+
+            <!-- Y-Axis Scale Labels -->
+            <text x="105" y="325" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#5c6670">
+              0
+            </text>
+            <text x="105" y="245" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#5c6670">
+              8,000
+            </text>
+            <text x="105" y="165" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#5c6670">
+              16,000
+            </text>
+            <text x="105" y="85" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#5c6670">
+              24,000
+            </text>
+
+            <!-- Group 1: FY 2023–24 (19,775 clients, 6,481 positive exits) -->
+            <rect class="graphic-primary" x="180" y="122" width="55" height="198" rx="3"></rect>
+            <text x="207" y="112" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#8c1d40">
+              19,775
+            </text>
+            <rect class="graphic-accent" x="240" y="255" width="55" height="65" rx="3"></rect>
+            <text x="267" y="245" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#404040">
+              6,481
+            </text>
+            <text x="238" y="345" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#404040">
+              FY 2023–24
+            </text>
+
+            <!-- Group 2: FY 2024–25 (18,882 clients, 5,655 positive exits) -->
+            <rect class="graphic-primary" x="370" y="131" width="55" height="189" rx="3"></rect>
+            <text x="397" y="121" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#8c1d40">
+              18,882
+            </text>
+            <rect class="graphic-accent" x="430" y="263" width="55" height="57" rx="3"></rect>
+            <text x="457" y="253" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#404040">
+              5,655
+            </text>
+            <text x="428" y="345" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#404040">
+              FY 2024–25
+            </text>
+
+            <!-- Group 3: FY 2025–26 (22,241 clients, 6,029 positive exits) -->
+            <rect class="graphic-primary" x="560" y="98" width="55" height="222" rx="3"></rect>
+            <text x="587" y="88" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#8c1d40">
+              22,241
+            </text>
+            <rect class="graphic-accent" x="620" y="260" width="55" height="60" rx="3"></rect>
+            <text x="647" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#404040">
+              6,029
+            </text>
+            <text x="618" y="345" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#404040">
+              FY 2025–26
+            </text>
+
+            <!-- Legend -->
+            <rect class="graphic-primary" x="250" y="372" width="16" height="16" rx="2"></rect>
+            <text x="274" y="385" font-family="Arial, sans-serif" font-size="12" fill="#404040">
+              Unique Clients Served
+            </text>
+            <rect class="graphic-accent" x="450" y="372" width="16" height="16" rx="2"></rect>
+            <text x="474" y="385" font-family="Arial, sans-serif" font-size="12" fill="#404040">
+              Positive Housing Exits
+            </text>
+          </svg>
+        </div>
+      </section>
+      <section id="documentation">
+        <h2>D5-D6 · System and Documentation</h2>
+        <div class="documentation">
+          <h3>Design System Token Summary</h3>
+          <p>
+            Extends CSS custom properties including color palette, spacing, and
+            typography for consistent styling and legibility across the data
+            story.
+          </p>
+        </div>
+
+        <div class="documentation">
+          <h3>Linked Source &amp; Asset Credits</h3>
+          <ul>
+            <li>
+              <strong>Primary Dataset:</strong> City of Phoenix Open Data Portal
+              —
+              <a href="https://www.phoenixopendata.com/dataset/homeless-solutions-client-outcomes-by-program-type" rel="noopener" target="_blank">Homeless Solutions Client Outcomes by Program Type
+              </a>
+              (Dataset ID: <code>33d86336-207c-44b6-878e-331f256f4785</code>).
+            </li>
+            <li>
+              <strong>Publishing Agency:</strong> City of Phoenix Office of
+              Homeless Solutions (OHS).
+            </li>
+            <li>
+              <strong>License &amp; Usage Rights:</strong> Open Data Public
+              Access License / City of Phoenix Open Data Portal Terms of Use.
+              Free public use for municipal research and education.
+            </li>
+            <li>
+              <strong>Asset Credits:</strong> HTML markup, CSS custom
+              properties, and SVG graphics were independently created and
+              implemented with provided design tokens (Maroon
+              <code>#8c1d40</code> and Gold <code>#ffc627</code>).
+            </li>
+          </ul>
+        </div>
+
+        <div class="documentation">
+          <h3>Data Transformation</h3>
+          <p>
+            Raw data records from
+            <code>2026.09.30_ohs_programsummary.csv</code> were processed using
+            Python (pandas) for the following transformations:
+          </p>
+          <ol>
+            <li>Filtered for fiscal years 2023-24 through 2025-26.</li>
+            <li>
+              Grouped data across the 5 primary program models:
+              <em>Emergency Shelter (General Adult)</em>,
+              <em>Emergency Shelter (Family)</em>, <em>Safe Outdoor Space</em>,
+              <em>Rapid Re-housing</em>, and <em>Street Outreach</em>.
+            </li>
+            <li>
+              Summed unique client counts
+              (<code>COUNT_CLIENTS_UNIQUE_ID</code>), positive exits
+              (<code>EXIT_POSITIVE</code>), and total exits
+              (<code>EXIT_TOTAL</code>).
+            </li>
+            <li>
+              Calculated the weighted positive exit percentage for each category
+              using <code>(EXIT_POSITIVE / EXIT_TOTAL) * 100</code>.
+            </li>
+          </ol>
+        </div>
+
+        <div class="documentation">
+          <h3>System Test Records</h3>
+          <ul>
+            <li>
+              <strong>W3C Validation:</strong> All HTML elements conform to W3C
+              standards.
+            </li>
+            <li>
+              <strong>320px Mobile Viewport:</strong> Operational page reflow,
+              SVG scaling, and horizontal scrolling within tables.
+            </li>
+            <li>
+              <strong>768px Tablet Viewport:</strong> Operational page reflow,
+              SVG scaling, and horizontal scrolling within tables.
+            </li>
+            <li>
+              <strong>Keyboard Navigation:</strong> All interactive elements are
+              accessible via keyboard tabbing.
+            </li>
+            <li>
+              <strong>Browser Zoom:</strong> Content remains accessible and
+              readable at 200% zoom level.
+            </li>
+            <li>
+              <strong>Accessibility Tree:</strong> The page structure is
+              optimized for screen reader navigation.
+            </li>
+          </ul>
+        </div>
+
+        <div class="documentation">
+          <h3>AI Disclosure Statement</h3>
+          <p>
+            Assistive AI tools were utilized for analyzing and calculating
+            aggregated program metrics with Python. Data values were
+            independently reviewed and validated against the original dataset.
+            Accessibility tests verified locally in Google Chrome using
+            Developer Tools.
+          </p>
+        </div>
+      </section>
+    </main>
+  
+
+</body></html>

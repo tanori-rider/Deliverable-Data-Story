@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img" aria-label="Horizontal bar chart comparing positive exit rates to permanent housing across homelessness programs">
+  <rect width="800" height="450" fill="#f8f9fa" rx="8" />
+  <text x="400" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#8c1d40">Positive Housing Exit Rate by Program Type (%)</text>
+  <text x="400" y="65" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#5c6670">Percentage of exiting clients transitioning to permanent housing (FY 2025–26)</text>
+  
+  <!-- X-Axis Gridlines -->
+  <line x1="220" y1="360" x2="220" y2="100" stroke="#d0d0d0" stroke-width="1" />
+  <line x1="345" y1="360" x2="345" y2="100" stroke="#e0e0e0" stroke-width="1" stroke-dasharray="4" />
+  <line x1="470" y1="360" x2="470" y2="100" stroke="#e0e0e0" stroke-width="1" stroke-dasharray="4" />
+  <line x1="595" y1="360" x2="595" y2="100" stroke="#e0e0e0" stroke-width="1" stroke-dasharray="4" />
+  <line x1="720" y1="360" x2="720" y2="100" stroke="#e0e0e0" stroke-width="1" stroke-dasharray="4" />
+  
+  <!-- X-Axis Labels -->
+  <text x="220" y="380" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#404040">0%</text>
+  <text x="345" y="380" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#404040">25%</text>
+  <text x="470" y="380" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#404040">50%</text>
+  <text x="595" y="380" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#404040">75%</text>
+  <text x="720" y="380" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#404040">100%</text>
+  
+  <!-- Row 1: Rapid Re-housing (83.3%) -->
+  <text x="205" y="130" text-anchor="end" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#404040">Rapid Re-housing</text>
+  <rect x="220" y="110" width="416" height="32" fill="#ffc627" stroke="#8c1d40" stroke-width="1.5" rx="4" />
+  <text x="646" y="131" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#8c1d40">83.3%</text>
+  
+  <!-- Row 2: Family Shelter (79.1%) -->
+  <text x="205" y="180" text-anchor="end" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#404040">Family Shelter</text>
+  <rect x="220" y="160" width="395" height="32" fill="#ffc627" stroke="#8c1d40" stroke-width="1.5" rx="4" />
+  <text x="625" y="181" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#8c1d40">79.1%</text>
+  
+  <!-- Row 3: Street Outreach (40.9%) -->
+  <text x="205" y="230" text-anchor="end" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#404040">Street Outreach</text>
+  <rect x="220" y="210" width="204" height="32" fill="#8c1d40" rx="4" />
+  <text x="434" y="231" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#8c1d40">40.9%</text>
+  
+  <!-- Row 4: Safe Outdoor Space (33.5%) -->
+  <text x="205" y="280" text-anchor="end" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#404040">Safe Outdoor Space</text>
+  <rect x="220" y="260" width="167" height="32" fill="#8c1d40" rx="4" />
+  <text x="397" y="281" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#8c1d40">33.5%</text>
+  
+  <!-- Row 5: General Adult Shelter (12.6%) -->
+  <text x="205" y="330" text-anchor="end" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#404040">General Adult Shelter</text>
+  <rect x="220" y="310" width="63" height="32" fill="#8c1d40" rx="4" />
+  <text x="293" y="331" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#8c1d40">12.6%</text>
+  
+  <!-- Bottom note -->
+  <text x="400" y="420" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#5c6670">Overall System Average Positive Exit Rate: 32.0% across all programs</text>
+</svg>
